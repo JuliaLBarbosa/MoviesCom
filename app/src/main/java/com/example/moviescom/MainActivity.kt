@@ -86,7 +86,7 @@ fun MoviesCom(modifier: Modifier = Modifier.fillMaxSize()) {
             painter = painterResource(imageResource),
             contentDescription = result.toString(),
             modifier = Modifier
-                .width(350.dp)
+                .width(335.dp)
                 .height(500.dp)
                 .clip(RoundedCornerShape(50.dp))
             //.border(2.dp, Color.White, RoundedCornerShape(20.dp))
